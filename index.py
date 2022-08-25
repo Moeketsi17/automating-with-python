@@ -1,4 +1,7 @@
-text = "415-555-4242"
+"""
+find a phone number in string
+415-555-4242
+"""
 
 def isPhoneNumber(text):
     if len(text) != 12:
@@ -18,6 +21,10 @@ def isPhoneNumber(text):
             return False
     
     return True
-print (isPhoneNumber)
+
+print ('415-555-4242 is a phone number: ')
+print(isPhoneNumber('415-555-4242'))
+print('Moshi moshi is a phone number:')
+print(isPhoneNumber('Moshi moshi'))
 
 
